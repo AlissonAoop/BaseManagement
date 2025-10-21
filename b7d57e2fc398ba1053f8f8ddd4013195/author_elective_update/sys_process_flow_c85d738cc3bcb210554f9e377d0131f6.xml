@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="DELETE">
+        <active>true</active>
+        <condition table="x_1519575_traini_1_base_member">state=1^EQ<item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Awaiting Manager's Approval</label>
+        <name>Awaiting Manager's Approval</name>
+        <order>200</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 18:15:41</sys_created_on>
+        <sys_id>c85d738cc3bcb210554f9e377d0131f6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Awaiting Manager's Approval</sys_name>
+        <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
+        <sys_update_name>sys_process_flow_c85d738cc3bcb210554f9e377d0131f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 14:23:10</sys_updated_on>
+        <table>x_1519575_traini_1_base_member</table>
+    </sys_process_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</application>
+        <file_path/>
+        <instance_id>6a5e3b2fdb3575d0b1eb9027c59619b3</instance_id>
+        <instance_name>dev188314</instance_name>
+        <name>sys_process_flow_c85d738cc3bcb210554f9e377d0131f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>true</active><condition table="x_1519575_traini_1_base_member">state=1^EQ<item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label>Awaiting Manager's Approval</label><name>Awaiting Manager's Approval</name><order>200</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 18:15:41</sys_created_on><sys_id>c85d738cc3bcb210554f9e377d0131f6</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Awaiting Manager's Approval</sys_name><sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package><sys_policy/><sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope><sys_update_name>sys_process_flow_c85d738cc3bcb210554f9e377d0131f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-21 14:23:10</sys_updated_on><table>x_1519575_traini_1_base_member</table></sys_process_flow></record_update>]]></payload>
+        <payload_hash>685556314</payload_hash>
+        <record_name>Awaiting Manager's Approval</record_name>
+        <reverted_from/>
+        <source>91aa3a88c378b210554f9e377d013195</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 14:23:10</sys_created_on>
+        <sys_id>02d198a8c3b03210554f9e377d013115</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a07270a070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 14:23:10</sys_updated_on>
+        <type>Flow Formatter</type>
+        <update_guid>86d198a89db0321084f9e110fc3f5014</update_guid>
+        <update_guid_history>86d198a89db0321084f9e110fc3f5014:685556314,94a0cc5025fcb2108670e7ec40bc8bcf:594326903,227d3f4c43bcb2101bb0187079ac087f:-173079874</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 14:23:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
+        <sys_id>36b768d8f77a45a69c22d8c5e01aa8e4</sys_id>
+        <sys_metadata>c85d738cc3bcb210554f9e377d0131f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Awaiting Manager's Approval</sys_name>
+        <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
+        <sys_scope_delete display_value="">1e7c5e37b3ed4f408fe0a0d59a2e9000</sys_scope_delete>
+        <sys_update_name>sys_process_flow_c85d738cc3bcb210554f9e377d0131f6</sys_update_name>
+        <sys_update_version display_value="sys_process_flow_c85d738cc3bcb210554f9e377d0131f6">02d198a8c3b03210554f9e377d013115</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 14:23:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Base Member" section_id="2a2db64cc378b210554f9e377d0131b0" sys_domain="global" table="x_1519575_traini_1_base_member" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 13:39:58</sys_created_on>
+            <sys_id>ff5efaccc378b210554f9e377d0131f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 13:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 13:39:58</sys_created_on>
+            <sys_id>775efaccc378b210554f9e377d0131f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 13:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 13:39:58</sys_created_on>
+            <sys_id>fb5efaccc378b210554f9e377d0131f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 13:39:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 13:39:58</sys_created_on>
+            <sys_id>735efaccc378b210554f9e377d0131f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 13:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 13:39:58</sys_created_on>
+            <sys_id>f75efaccc378b210554f9e377d0131f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 13:39:58</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 13:39:58</sys_created_on>
+            <sys_id>7f5efaccc378b210554f9e377d0131f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 13:39:58</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>base</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 13:39:58</sys_created_on>
+            <sys_id>f35efaccc378b210554f9e377d0131fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 13:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 13:39:59</sys_created_on>
+            <sys_id>7b5efaccc378b210554f9e377d0131fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 13:39:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>role</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 13:39:59</sys_created_on>
+            <sys_id>ff5efaccc378b210554f9e377d0131fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 13:39:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Base Member</caption>
+            <header>false</header>
+            <name>x_1519575_traini_1_base_member</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 13:34:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a2db64cc378b210554f9e377d0131b0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1519575_traini_1_base_member</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
+            <sys_update_name>sys_ui_section_2a2db64cc378b210554f9e377d0131b0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 18:27:18</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</application>
+        <file_path/>
+        <instance_id>6a5e3b2fdb3575d0b1eb9027c59619b3</instance_id>
+        <instance_name>dev188314</instance_name>
+        <name>sys_ui_section_2a2db64cc378b210554f9e377d0131b0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Base Member" section_id="2a2db64cc378b210554f9e377d0131b0" sys_domain="global" table="x_1519575_traini_1_base_member" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 13:39:58</sys_created_on><sys_id>ff5efaccc378b210554f9e377d0131f7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 13:39:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>opened_by</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 13:39:58</sys_created_on><sys_id>775efaccc378b210554f9e377d0131f8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 13:39:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 13:39:58</sys_created_on><sys_id>fb5efaccc378b210554f9e377d0131f8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 13:39:58</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 13:39:58</sys_created_on><sys_id>735efaccc378b210554f9e377d0131f9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 13:39:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 13:39:58</sys_created_on><sys_id>f75efaccc378b210554f9e377d0131f9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 13:39:58</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 13:39:58</sys_created_on><sys_id>7f5efaccc378b210554f9e377d0131f9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 13:39:58</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>base</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 13:39:58</sys_created_on><sys_id>f35efaccc378b210554f9e377d0131fa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 13:39:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 13:39:59</sys_created_on><sys_id>7b5efaccc378b210554f9e377d0131fa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 13:39:59</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>role</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 13:39:59</sys_created_on><sys_id>ff5efaccc378b210554f9e377d0131fa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Base Member" display_value="Base Member" name="x_1519575_traini_1_base_member" sys_domain="global" view="Default view">2a2db64cc378b210554f9e377d0131b0</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 13:39:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Base Member</caption><header>false</header><name>x_1519575_traini_1_base_member</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 13:34:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2a2db64cc378b210554f9e377d0131b0</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1519575_traini_1_base_member</sys_name><sys_overrides/><sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package><sys_policy/><sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope><sys_update_name>sys_ui_section_2a2db64cc378b210554f9e377d0131b0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 18:27:18</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-703457028</payload_hash>
+        <record_name>Base Member</record_name>
+        <reverted_from/>
+        <source>91aa3a88c378b210554f9e377d013195</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 18:27:18</sys_created_on>
+        <sys_id>b8200850c3fcb210554f9e377d0131b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a02e032ea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 18:27:18</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>fc2008507dfcb210b04128289ac9bdaf</update_guid>
+        <update_guid_history>fc2008507dfcb210b04128289ac9bdaf:-703457028,fb5efacce078b210445ba2650d230bfc:-1535399039,775efacc5878b210e6ad5c658555c2f2:1085733827</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 18:27:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>4d68218a74f349efad86cd6a981aa139</sys_id>
+        <sys_metadata>2a2db64cc378b210554f9e377d0131b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Base Member</sys_name>
+        <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
+        <sys_parent display_value="Base Member">4e2d328cc378b210554f9e377d013188</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
+        <sys_scope_delete display_value="">1e7c5e37b3ed4f408fe0a0d59a2e9000</sys_scope_delete>
+        <sys_update_name>sys_ui_section_2a2db64cc378b210554f9e377d0131b0</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_2a2db64cc378b210554f9e377d0131b0">b8200850c3fcb210554f9e377d0131b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 18:27:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

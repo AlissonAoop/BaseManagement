@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4e2d328cc378b210554f9e377d013188" extends="task" label="Base Member" max_length="40" name="x_1519575_traini_1_base_member" type="collection">
+        <element label="Reproval Reason" max_length="40" name="reproval_reason" type="string"/>
+        <element label="Base" max_length="32" name="base" reference="x_1519575_traini_1_base_registry" reference_floats="true" type="reference"/>
+        <element label="Role" max_length="32" name="role" reference="x_1519575_traini_1_roles" type="reference"/>
+        <element display="true" label="Member" max_length="32" name="member" reference="sys_user" reference_qual="roles=x_1519575_traini_1.user^EQ" reference_qual_condition="roles=x_1519575_traini_1.user^EQ" type="reference"/>
+    </element>
+</database>

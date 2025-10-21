@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>City/State Base Limit</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	var city = g_form.getValue("city");
+	var state = g_form.getValue("state");
+
+	if(!city || !state){
+		return;
+	}
+
+	var ga = new GlideAjax("x_1519575_traini_1.BaseUtils");
+	ga.addParam("sysparm_name", "validateCityState");
+	ga.addParam("sysparm_city", city.toString());
+	ga.addParam("sysparm_state", state.toString());
+
+	var answer = ga.getXMLWait();
+
+	if (answer === "true"){
+		g_form.addErrorMessage("There is already a base located in this city and state.");
+        g_form.setValue("city", "");
+        g_form.setValue("state", "");
+        
+        return false;
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 14:06:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbe307c4c3b8b210554f9e377d013132</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>City/State Base Limit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
+        <sys_update_name>sys_script_client_dbe307c4c3b8b210554f9e377d013132</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 14:26:40</sys_updated_on>
+        <table>x_1519575_traini_1_base_registry</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</application>
+        <file_path/>
+        <instance_id>6a5e3b2fdb3575d0b1eb9027c59619b3</instance_id>
+        <instance_name>dev188314</instance_name>
+        <name>sys_script_client_dbe307c4c3b8b210554f9e377d013132</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;City/State Base Limit&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+	var city = g_form.getValue("city");
+	var state = g_form.getValue("state");
+
+	if(!city || !state){
+		return;
+	}
+
+	var ga = new GlideAjax("x_1519575_traini_1.BaseUtils");
+	ga.addParam("sysparm_name", "validateCityState");
+	ga.addParam("sysparm_city", city.toString());
+	ga.addParam("sysparm_state", state.toString());
+
+	var answer = ga.getXMLWait();
+
+	if (answer === "true"){
+		g_form.addErrorMessage("There is already a base located in this city and state.");
+        g_form.setValue("city", "");
+        g_form.setValue("state", "");
+        
+        return false;
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-20 14:06:43&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dbe307c4c3b8b210554f9e377d013132&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;City/State Base Limit&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Base Management" source="x_1519575_traini_1"&gt;b7d57e2fc398ba1053f8f8ddd4013195&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Base Management"&gt;b7d57e2fc398ba1053f8f8ddd4013195&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_dbe307c4c3b8b210554f9e377d013132&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-20 14:26:40&lt;/sys_updated_on&gt;&lt;table&gt;x_1519575_traini_1_base_registry&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1779884946</payload_hash>
+        <record_name>City/State Base Limit</record_name>
+        <reverted_from/>
+        <source>91aa3a88c378b210554f9e377d013195</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 14:26:40</sys_created_on>
+        <sys_id>f309cb4cc3b8b210554f9e377d0131a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a0203e4060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 14:26:40</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>7b098f8876b8b210f5f091c0c4e9eef9</update_guid>
+        <update_guid_history>7b098f8876b8b210f5f091c0c4e9eef9:1779884946,7af7838836b8b2105432bc0b1372a415:-581531137,c926cf4862b8b210b32cf8a87cd3d02f:1104512774,3fa54b045cb8b210703ceb98a361cbb7:1935412529,637483c44db8b210a56a99eabb767c1f:1193823081</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 14:39:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>8bf0ea37655e44b8885d06408d82fc31</sys_id>
+        <sys_metadata>dbe307c4c3b8b210554f9e377d013132</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>City/State Base Limit</sys_name>
+        <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
+        <sys_parent display_value="Traini 1 Base Registry">04dbb20cc378b210554f9e377d0131e7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
+        <sys_scope_delete display_value="">1e7c5e37b3ed4f408fe0a0d59a2e9000</sys_scope_delete>
+        <sys_update_name>sys_script_client_dbe307c4c3b8b210554f9e377d013132</sys_update_name>
+        <sys_update_version display_value="sys_script_client_dbe307c4c3b8b210554f9e377d013132">f309cb4cc3b8b210554f9e377d0131a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 14:39:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>city</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 14:33:00</sys_created_on>
+        <sys_id>347ac7ccc3b8b210554f9e377d013144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>city</sys_name>
+        <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
+        <sys_update_name>sys_ui_policy_action_347ac7ccc3b8b210554f9e377d013144</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 14:33:00</sys_updated_on>
+        <table>x_1519575_traini_1_base_registry</table>
+        <ui_policy display_value="Default Mandatory Fields">116a47ccc3b8b210554f9e377d0131cf</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=347ac7ccc3b8b210554f9e377d013144"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</application>
+        <file_path/>
+        <instance_id>6a5e3b2fdb3575d0b1eb9027c59619b3</instance_id>
+        <instance_name>dev188314</instance_name>
+        <name>sys_ui_policy_action_347ac7ccc3b8b210554f9e377d013144</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>city</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 14:33:00</sys_created_on><sys_id>347ac7ccc3b8b210554f9e377d013144</sys_id><sys_mod_count>0</sys_mod_count><sys_name>city</sys_name><sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package><sys_policy/><sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope><sys_update_name>sys_ui_policy_action_347ac7ccc3b8b210554f9e377d013144</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 14:33:00</sys_updated_on><table>x_1519575_traini_1_base_registry</table><ui_policy display_value="Default Mandatory Fields">116a47ccc3b8b210554f9e377d0131cf</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=347ac7ccc3b8b210554f9e377d013144"/></record_update>]]></payload>
+        <payload_hash>1191863222</payload_hash>
+        <record_name>city</record_name>
+        <reverted_from/>
+        <source>91aa3a88c378b210554f9e377d013195</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 14:33:01</sys_created_on>
+        <sys_id>6c8a47ccc3b8b210554f9e377d0131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a0209b1830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 14:33:01</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>608a47cceab8b2107a4a78ebbd5a39f9</update_guid>
+        <update_guid_history>608a47cceab8b2107a4a78ebbd5a39f9:1191863222</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 14:35:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>2bcbb1eda95e4ed9a66aa68dbaa9c751</sys_id>
+        <sys_metadata>347ac7ccc3b8b210554f9e377d013144</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>city</sys_name>
+        <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
+        <sys_parent display_value="Default Mandatory Fields">116a47ccc3b8b210554f9e377d0131cf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
+        <sys_scope_delete display_value="">1e7c5e37b3ed4f408fe0a0d59a2e9000</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_347ac7ccc3b8b210554f9e377d013144</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_347ac7ccc3b8b210554f9e377d013144">6c8a47ccc3b8b210554f9e377d0131f9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 14:35:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

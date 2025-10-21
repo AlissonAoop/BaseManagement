@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1519575_traini_1.BaseUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>BaseUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var BaseUtils = Class.create();
+BaseUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	validateBaseName: function() {
+		var base = this.getParameter("sysparm_base");
+
+		var gr = new GlideRecord("x_1519575_traini_1_base_registry");
+		gr.addQuery("name", base);
+		gr.query();
+
+		if(gr.next()) {
+			return "true";
+		}
+		return "false";
+	},
+
+	validateBaseCapacity: function(){
+		var baseSysId = this.getParameter("sysparm_base_sys_id");
+
+		var gr = new GlideRecord("x_1519575_traini_1_base_registry");
+		
+		if (gr.get(baseSysId)) {
+			var baseCapacity = parseInt(gr.max_capacity, 10);
+
+			var members = new GlideAggregate("x_1519575_traini_1_base_member");
+			members.addQuery("base", baseSysId);
+			members.addQuery("state", "!=", "4");
+			members.addAggregate("COUNT");
+			members.query();
+
+			if (members.next()) {
+				var count = parseInt(members.getAggregate("COUNT"), 10);
+				if (count >= baseCapacity) {
+					return "true";
+				}
+			}
+
+			return "false";
+		}
+
+	},
+
+	validateCityState: function () {
+		var city = this.getParameter("sysparm_city");
+		var state = this.getParameter("sysparm_state");
+
+		var grState = new GlideRecord("x_1519575_traini_1_base_registry");
+		grState.addQuery("state", state);
+		grState.query();
+
+		if(grState.next()) {
+			var grCity = new GlideRecord("x_1519575_traini_1_base_registry")
+			grCity.addQuery("state", state);
+			grCity.addQuery("city", city);
+			grCity.query();
+
+			if(grCity.next()) {
+				return "true";
+			}
+			return "false";
+		}
+	},
+
+	validateBaseManager: function() {
+		var manager = this.getParameter("sysparm_manager");
+
+		var gr = new GlideRecord("x_1519575_traini_1_base_registry");
+		gr.addQuery("base_manager", manager);
+		gr.query();
+
+		if(gr.next()) {
+			return "true";
+		}
+		return "false";
+	},
+
+	refQualBase: function() {
+		var userId = gs.getUserID();
+		var baseNotToBeShown = [];
+		var baseToBeShown = [];
+
+		var grMember = new GlideRecord("x_1519575_traini_1_base_member");
+		grMember.addQuery("opened_by", userId);
+		grMember.query();
+
+		while(grMember.next()){
+			if(grMember.state != "4"){
+				baseNotToBeShown.push(grMember.base.sys_id.toString());
+			} 
+		}
+
+		var grBase = new GlideRecord("x_1519575_traini_1_base_registry");
+		grBase.query();
+
+		while(grBase.next()){
+			var baseName = grBase.name.toString();
+			var baseCapacity = parseInt(grBase.max_capacity, 10);
+
+			var members = new GlideAggregate("x_1519575_traini_1_base_member");
+			members.addQuery("base.name", baseName);
+			members.addQuery("state", "!=", "4");
+			members.addAggregate("COUNT");
+			members.query();
+
+			if(members.next() && parseInt(members.getAggregate("COUNT"), 10) >= baseCapacity) {
+				baseNotToBeShown.push(grBase.sys_id.toString());
+			}
+
+			if(baseNotToBeShown.indexOf(grBase.getUniqueValue()) == -1){
+				baseToBeShown.push(grBase.getUniqueValue());
+			}
+		}
+
+		
+		return "sys_idIN" + baseToBeShown.join(",");
+
+
+	},
+
+    type: 'BaseUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 13:50:11</sys_created_on>
+        <sys_id>32ff3280c3b8b210554f9e377d013172</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>BaseUtils</sys_name>
+        <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
+        <sys_update_name>sys_script_include_32ff3280c3b8b210554f9e377d013172</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 13:46:38</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>32ff3280c3b8b210554f9e377d013172</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 13:50:10</sys_created_on>
+        <sys_id>c9b04f40c3b8b210554f9e377d0131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 13:50:10</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
