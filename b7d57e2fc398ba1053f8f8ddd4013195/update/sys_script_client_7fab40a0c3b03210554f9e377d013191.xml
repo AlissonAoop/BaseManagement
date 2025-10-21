@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>member</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Can't Select Max Capacity Base</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	var base = g_form.getValue("base");
+
+	var ga = new GlideAjax("x_1519575_traini_1.BaseUtils");
+	ga.addParam("sysparm_name", "validateBaseCapacity");
+	ga.addParam("sysparm_base_sys_id", base);
+
+	ga.getXMLAnswer(function(answer) {
+		if (answer === "true") {
+		g_form.setValue("base", "");
+		g_form.showErrorBox("base", "This base is currently at max capacity.");
+		}
+	});
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 13:57:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7fab40a0c3b03210554f9e377d013191</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Can't Select Max Capacity Base</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
+        <sys_update_name>sys_script_client_7fab40a0c3b03210554f9e377d013191</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 14:02:14</sys_updated_on>
+        <table>x_1519575_traini_1_base_member</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

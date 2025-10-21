@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Allow query_range for records in sys_user_grmember, for users with role x_1519575_traini_1.base_manager.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>sys_user_grmember</name>
+        <operation display_value="query_range">e66cf897b7300210240b06dd1e11a9fd</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 15:05:36</sys_created_on>
+        <sys_id>487b5028c3f03210554f9e377d013188</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>sys_user_grmember</sys_name>
+        <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
+        <sys_update_name>sys_security_acl_487b5028c3f03210554f9e377d013188</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 16:16:09</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</application>
+        <file_path/>
+        <instance_id>6a5e3b2fdb3575d0b1eb9027c59619b3</instance_id>
+        <instance_name>dev188314</instance_name>
+        <name>sys_security_acl_487b5028c3f03210554f9e377d013188</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Allow query_range for records in sys_user_grmember, for users with role x_1519575_traini_1.base_manager.</description><local_or_existing>Local</local_or_existing><name>sys_user_grmember</name><operation display_value="query_range">e66cf897b7300210240b06dd1e11a9fd</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-21 15:05:36</sys_created_on><sys_id>487b5028c3f03210554f9e377d013188</sys_id><sys_mod_count>2</sys_mod_count><sys_name>sys_user_grmember</sys_name><sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package><sys_policy/><sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope><sys_update_name>sys_security_acl_487b5028c3f03210554f9e377d013188</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-21 16:16:09</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1399156163</payload_hash>
+        <record_name>sys_user_grmember</record_name>
+        <reverted_from/>
+        <source>91aa3a88c378b210554f9e377d013195</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 16:16:09</sys_created_on>
+        <sys_id>09bbaca8c3343210554f9e377d01319b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a078e7a650000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 16:16:09</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>cdbbaca87134321060e7c5f970c8fc9a</update_guid>
+        <update_guid_history>cdbbaca87134321060e7c5f970c8fc9a:1399156163,ee6b68a8a33432102f181905b89090ef:-912996119,7b8b14284ff032107b6caeebd70d032f:-1870486541</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 16:16:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>50abb29052684f03828aae0707409d99</sys_id>
+        <sys_metadata>487b5028c3f03210554f9e377d013188</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user_grmember</sys_name>
+        <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
+        <sys_parent display_value="sys_user_grmember">22c81d01f42322104f3475eb2440bc24</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
+        <sys_scope_delete display_value="">1e7c5e37b3ed4f408fe0a0d59a2e9000</sys_scope_delete>
+        <sys_update_name>sys_security_acl_487b5028c3f03210554f9e377d013188</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_487b5028c3f03210554f9e377d013188">09bbaca8c3343210554f9e377d01319b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 16:16:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

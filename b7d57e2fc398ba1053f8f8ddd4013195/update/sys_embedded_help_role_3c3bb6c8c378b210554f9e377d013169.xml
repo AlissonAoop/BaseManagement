@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
-        <order>1000</order>
-        <role/>
+        <order>100</order>
+        <role display_value="x_1519575_traini_1.base_manager" name="x_1519575_traini_1.base_manager">303bb6c8c378b210554f9e377d013168</role>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-06 13:30:11</sys_created_on>
-        <sys_id>fbd5be2fc398ba1053f8f8ddd40131c8</sys_id>
+        <sys_created_on>2025-10-20 13:26:08</sys_created_on>
+        <sys_id>3c3bb6c8c378b210554f9e377d013169</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>7fd5be2fc398ba1053f8f8ddd40131c6</sys_name>
+        <sys_name>303bb6c8c378b210554f9e377d013168</sys_name>
         <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
         <sys_policy/>
         <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
-        <sys_update_name>sys_embedded_help_role_fbd5be2fc398ba1053f8f8ddd40131c8</sys_update_name>
+        <sys_update_name>sys_embedded_help_role_3c3bb6c8c378b210554f9e377d013169</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-06 13:30:11</sys_updated_on>
+        <sys_updated_on>2025-10-20 13:26:08</sys_updated_on>
     </sys_embedded_help_role>
 </record_update>
