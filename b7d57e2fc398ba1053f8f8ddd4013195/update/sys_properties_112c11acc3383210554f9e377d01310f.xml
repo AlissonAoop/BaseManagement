@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Temperature unit (choose between "f" and "c")</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1519575_traini_1.integration_unit</name>
+        <read_roles/>
+        <suffix>integration_unit</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 19:48:47</sys_created_on>
+        <sys_id>112c11acc3383210554f9e377d01310f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1519575_traini_1.integration_unit</sys_name>
+        <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
+        <sys_update_name>sys_properties_112c11acc3383210554f9e377d01310f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 19:48:47</sys_updated_on>
+        <type>string</type>
+        <value>c</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=112c11acc3383210554f9e377d01310f"/>
+</record_update>

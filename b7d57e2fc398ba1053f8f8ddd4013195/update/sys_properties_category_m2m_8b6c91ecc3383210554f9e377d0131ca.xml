@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Base Management">c3ea516cc3383210554f9e377d0131b6</category>
+        <order>400</order>
+        <property display_value="x_1519575_traini_1.integration_unit" name="x_1519575_traini_1.integration_unit">112c11acc3383210554f9e377d01310f</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 19:48:59</sys_created_on>
+        <sys_id>8b6c91ecc3383210554f9e377d0131ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1519575_traini_1.integration_unit.Base Management</sys_name>
+        <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_8b6c91ecc3383210554f9e377d0131ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 19:52:06</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
