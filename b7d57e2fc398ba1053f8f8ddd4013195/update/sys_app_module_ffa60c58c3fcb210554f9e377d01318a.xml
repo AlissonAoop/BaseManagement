@@ -15,9 +15,9 @@
         <mobile_title>Base Registry</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1519575_traini_1_base_registry</name>
-        <order>150</order>
+        <order>130</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>&amp;sysparm_fixed_query=base_manager=javascript:gs.getUserID();</query>
+        <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
         <roles>x_1519575_traini_1.base_manager</roles>
@@ -27,17 +27,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ffa60c58c3fcb210554f9e377d01318a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Base Registry</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Base Records</sys_name>
         <sys_overrides/>
         <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
         <sys_policy/>
         <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
         <sys_update_name>sys_app_module_ffa60c58c3fcb210554f9e377d01318a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 17:39:55</sys_updated_on>
+        <sys_updated_on>2025-10-22 13:53:53</sys_updated_on>
         <timeline_page/>
-        <title>Base Registry</title>
+        <title>Base Records</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

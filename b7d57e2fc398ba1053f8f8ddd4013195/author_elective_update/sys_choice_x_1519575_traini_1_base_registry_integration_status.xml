@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="integration_status" table="x_1519575_traini_1_base_registry" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>integration_status</element>
+            <name>x_1519575_traini_1_base_registry</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-22 12:29:35</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>integration_status</sys_name>
+            <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
+            <sys_update_name>sys_choice_x_1519575_traini_1_base_registry_integration_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-22 12:29:35</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>integration_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Starting</label>
+            <language>en</language>
+            <name>x_1519575_traini_1_base_registry</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-22 12:29:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-22 12:29:35</sys_updated_on>
+            <value>starting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>integration_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Integrating</label>
+            <language>en</language>
+            <name>x_1519575_traini_1_base_registry</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-22 12:29:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-22 12:29:35</sys_updated_on>
+            <value>integrating</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>integration_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Integration Failure</label>
+            <language>en</language>
+            <name>x_1519575_traini_1_base_registry</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-22 12:29:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-22 12:29:35</sys_updated_on>
+            <value>integration_failure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>integration_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Integration Success</label>
+            <language>en</language>
+            <name>x_1519575_traini_1_base_registry</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-22 12:29:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-22 12:29:35</sys_updated_on>
+            <value>integration_success</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>integration_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Location not found</label>
+            <language>en</language>
+            <name>x_1519575_traini_1_base_registry</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-22 12:29:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-22 12:29:35</sys_updated_on>
+            <value>location_not_found</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
