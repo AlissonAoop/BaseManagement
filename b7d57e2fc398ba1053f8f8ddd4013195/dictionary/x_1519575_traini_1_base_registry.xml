@@ -17,6 +17,6 @@
         <element label="Max Capacity" max_length="40" name="max_capacity" type="integer"/>
         <element label="Integration Error Message" max_length="40" name="integration_error_message" read_only="true" type="string"/>
         <element label="Longitude" max_length="40" name="longitude" read_only="true" type="string"/>
-        <element label="Temperature" max_length="40" name="temperature" read_only="true" type="integer"/>
+        <element label="Temperature  (°C)" max_length="40" name="temperature" read_only="true" type="integer"/>
     </element>
 </database>

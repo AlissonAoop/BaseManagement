@@ -36,12 +36,13 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Request <strong>${number}</strong> was created.</p>
+        <message_html><![CDATA[<p>Hello, ${member}</p>
+<p>Your request <strong>${number}</strong> to become a base member was created and is going through the process of approval. Soon you will receive a confirmation e-mail.</p>
 <p><strong>Base Name:</strong> ${base.name}</p>
-<p><strong>Role:</strong> ${role}</p>
-<p><strong>City:</strong> ${base.city}</p>
-<p><strong>State:</strong> ${base.state}</p>
-<p>&nbsp;</p>]]></message_html>
+<p><strong>Base Manager:&nbsp;</strong>${base.base_manager}</p>
+<p><strong>Base Max Capacity:&nbsp;</strong>${base.max_capacity}</p>
+<p><strong>City:</strong> ${base.city}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>State:</strong> ${base.state}</p>
+<p><strong>Role:</strong> ${role}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Member Registration Created</name>
@@ -63,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d182d058c330f210554f9e377d0131f5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Member Registration Created</sys_name>
         <sys_overrides/>
         <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
@@ -71,7 +72,7 @@
         <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
         <sys_update_name>sysevent_email_action_d182d058c330f210554f9e377d0131f5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-20 19:51:36</sys_updated_on>
+        <sys_updated_on>2025-10-23 12:28:11</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
