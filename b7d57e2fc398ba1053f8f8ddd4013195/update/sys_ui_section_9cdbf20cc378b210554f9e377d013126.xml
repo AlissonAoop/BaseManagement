@@ -4,69 +4,69 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-20 14:31:54</sys_created_on>
-            <sys_id>a44a83ccc3b8b210554f9e377d013161</sys_id>
+            <sys_created_on>2025-10-22 18:26:40</sys_created_on>
+            <sys_id>f6231eb4c330b210554f9e377d01310b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1519575_traini_1_base_registry" sys_domain="global" view="Default view">9cdbf20cc378b210554f9e377d013126</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-20 14:31:54</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-20 14:31:54</sys_created_on>
-            <sys_id>604a83ccc3b8b210554f9e377d013162</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1519575_traini_1_base_registry" sys_domain="global" view="Default view">9cdbf20cc378b210554f9e377d013126</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-20 14:31:54</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-20 14:31:54</sys_created_on>
-            <sys_id>e44a83ccc3b8b210554f9e377d013162</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1519575_traini_1_base_registry" sys_domain="global" view="Default view">9cdbf20cc378b210554f9e377d013126</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-20 14:31:54</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>base_manager</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-20 14:31:54</sys_created_on>
-            <sys_id>6c4a83ccc3b8b210554f9e377d013162</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1519575_traini_1_base_registry" sys_domain="global" view="Default view">9cdbf20cc378b210554f9e377d013126</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-20 14:31:54</sys_updated_on>
+            <sys_updated_on>2025-10-22 18:26:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>city</element>
-            <position>4</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-20 14:31:54</sys_created_on>
-            <sys_id>e04a83ccc3b8b210554f9e377d013163</sys_id>
+            <sys_created_on>2025-10-22 18:26:40</sys_created_on>
+            <sys_id>b2231eb4c330b210554f9e377d01310c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1519575_traini_1_base_registry" sys_domain="global" view="Default view">9cdbf20cc378b210554f9e377d013126</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-20 14:31:54</sys_updated_on>
+            <sys_updated_on>2025-10-22 18:26:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-22 18:26:40</sys_created_on>
+            <sys_id>3a231eb4c330b210554f9e377d01310c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1519575_traini_1_base_registry" sys_domain="global" view="Default view">9cdbf20cc378b210554f9e377d013126</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-22 18:26:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-22 18:26:40</sys_created_on>
+            <sys_id>be231eb4c330b210554f9e377d01310c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1519575_traini_1_base_registry" sys_domain="global" view="Default view">9cdbf20cc378b210554f9e377d013126</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-22 18:26:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>base_manager</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-22 18:26:40</sys_created_on>
+            <sys_id>36231eb4c330b210554f9e377d01310d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1519575_traini_1_base_registry" sys_domain="global" view="Default view">9cdbf20cc378b210554f9e377d013126</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-22 18:26:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>max_capacity</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-20 14:31:54</sys_created_on>
-            <sys_id>684a83ccc3b8b210554f9e377d013163</sys_id>
+            <sys_created_on>2025-10-22 18:26:40</sys_created_on>
+            <sys_id>ba231eb4c330b210554f9e377d01310d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1519575_traini_1_base_registry" sys_domain="global" view="Default view">9cdbf20cc378b210554f9e377d013126</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-20 14:31:54</sys_updated_on>
+            <sys_updated_on>2025-10-22 18:26:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

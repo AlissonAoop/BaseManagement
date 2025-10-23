@@ -4,40 +4,38 @@
         <application display_value="Base Management">9325f704c3bcb210554f9e377d013109</application>
         <assessment/>
         <device_type/>
-        <filter table="x_1519575_traini_1_base_registry">base_manager.userDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="base_manager.user" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </filter>
+        <filter/>
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>NEW</link_type>
         <map_page/>
-        <mobile_title>Base Registry</mobile_title>
+        <mobile_title>New</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_1519575_traini_1_base_registry</name>
-        <order>130</order>
+        <name>x_1519575_traini_1_roles</name>
+        <order>310</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_1519575_traini_1.base_manager</roles>
+        <roles>x_1519575_traini_1.application_admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-20 18:56:37</sys_created_on>
+        <sys_created_on>2025-10-22 17:56:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>ffa60c58c3fcb210554f9e377d01318a</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>My Base Records</sys_name>
+        <sys_id>cd1c4ef8c3fc7210554f9e377d0131b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New</sys_name>
         <sys_overrides/>
         <sys_package display_value="Base Management" source="x_1519575_traini_1">b7d57e2fc398ba1053f8f8ddd4013195</sys_package>
         <sys_policy/>
         <sys_scope display_value="Base Management">b7d57e2fc398ba1053f8f8ddd4013195</sys_scope>
-        <sys_update_name>sys_app_module_ffa60c58c3fcb210554f9e377d01318a</sys_update_name>
+        <sys_update_name>sys_app_module_cd1c4ef8c3fc7210554f9e377d0131b1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 12:30:36</sys_updated_on>
+        <sys_updated_on>2025-10-22 17:56:14</sys_updated_on>
         <timeline_page/>
-        <title>My Base Records</title>
+        <title>New</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
